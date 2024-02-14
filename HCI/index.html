@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HCI</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^2.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header class="text-gray-600 body-font">
+      <div
+        class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
+      >
+        <a
+          class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
+        >
+          <!-- <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            stroke="currentColor"
+            <!-- stroke-linecap="round" -->
+            <!-- stroke-linejoin="round" -->
+            <!-- stroke-width="2" -->
+            <!-- class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" -->
+            <!-- viewBox="0 0 24 24" -->
+          <!-- > --> 
+            <path
+              d=""
+            > <img src="../logo.png " style="width: 40px;" alt="loading images  "></path>
+          <!-- </svg> -->
+          <span class="ml-3 text-xl">UNIVERSITIES OF PUNJAB</span>
+        </a>
+        <nav
+          class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400 flex flex-wrap items-center text-base justify-center"
+        >
+          <a class="mr-5 hover:text-gray-900">HOME</a>
+          <a class="mr-5 hover:text-gray-900">CAREER</a>
+          <a class="mr-5 hover:text-gray-900">CAMPUS</a>
+          <a class="mr-5 hover:text-gray-900">ABOUT US</a>
+        </nav>
+        <button
+          class="inline-flex items-center text-white bg-indigo-500 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"
+        >
+          SIGNUP NOW
+          <svg
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            class="w-4 h-4 ml-1"
+            viewBox="0 0 24 24"
+          >
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <!-- NAVBAR END  -->
+
+    <!-- SEARCH UNIVERSITIES -->
+    <section class="text-gray-600 body-font">
+      <div
+        class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
+      >
+        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+          <img
+            class="object-cover object-center rounded"
+            alt="IMAGE LOADING"
+            src="../Main.jpg"
+          />
+        </div>
+        <div
+          class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center"
+        >
+          <h1
+            class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"
+          >
+            UNIVERSITIES OF PUNJAB
+          </h1>
+          <p class="mb-8 leading-relaxed">
+            Universities in the Punjab provide the best study system to the students.Search the best one university in the Punjab now.
+          </p>
+          <div class="flex w-full md:justify-start justify-center items-end">
+            <div class="relative mr-4 lg:w-full xl:w-1/2 w-2/4">
+              <label for="hero-field" class="leading-7 text-sm text-gray-600"
+                >Search the Universities</label
+              >
+              <input
+              placeholder="Name of the University"
+                type="text"
+                id="hero-field"
+                name="hero-field"
+                class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:ring-2 focus:ring-indigo-200 focus:bg-transparent focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              />
+            </div>
+            <button
+              class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+            >
+              SEARCH NOW
+            </button>
+          </div>
+          <p class="text-sm mt-2 text-gray-500 mb-8 w-full">
+            You can also download app for find more information for the university
+          </p>
+          <div class="flex lg:flex-row md:flex-col">
+            <button
+              class="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                class="w-6 h-6"
+                viewBox="0 0 512 512"
+              >
+                <path
+                  d="M99.617 8.057a50.191 50.191 0 00-38.815-6.713l230.932 230.933 74.846-74.846L99.617 8.057zM32.139 20.116c-6.441 8.563-10.148 19.077-10.148 30.199v411.358c0 11.123 3.708 21.636 10.148 30.199l235.877-235.877L32.139 20.116zM464.261 212.087l-67.266-37.637-81.544 81.544 81.548 81.548 67.273-37.64c16.117-9.03 25.738-25.442 25.738-43.908s-9.621-34.877-25.749-43.907zM291.733 279.711L60.815 510.629c3.786.891 7.639 1.371 11.492 1.371a50.275 50.275 0 0027.31-8.07l266.965-149.372-74.849-74.847z"
+                ></path>
+              </svg>
+              <span class="ml-4 flex items-start flex-col leading-none">
+                <span class="text-xs text-gray-600 mb-1">GET IT ON</span>
+                <span class="title-font font-medium">Google Play</span>
+              </span>
+            </button>
+            <button
+              class="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center lg:ml-4 md:ml-0 ml-4 md:mt-4 mt-0 lg:mt-0 hover:bg-gray-200 focus:outline-none"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                class="w-6 h-6"
+                viewBox="0 0 305 305"
+              >
+                <path
+                  d="M40.74 112.12c-25.79 44.74-9.4 112.65 19.12 153.82C74.09 286.52 88.5 305 108.24 305c.37 0 .74 0 1.13-.02 9.27-.37 15.97-3.23 22.45-5.99 7.27-3.1 14.8-6.3 26.6-6.3 11.22 0 18.39 3.1 25.31 6.1 6.83 2.95 13.87 6 24.26 5.81 22.23-.41 35.88-20.35 47.92-37.94a168.18 168.18 0 0021-43l.09-.28a2.5 2.5 0 00-1.33-3.06l-.18-.08c-3.92-1.6-38.26-16.84-38.62-58.36-.34-33.74 25.76-51.6 31-54.84l.24-.15a2.5 2.5 0 00.7-3.51c-18-26.37-45.62-30.34-56.73-30.82a50.04 50.04 0 00-4.95-.24c-13.06 0-25.56 4.93-35.61 8.9-6.94 2.73-12.93 5.09-17.06 5.09-4.64 0-10.67-2.4-17.65-5.16-9.33-3.7-19.9-7.9-31.1-7.9l-.79.01c-26.03.38-50.62 15.27-64.18 38.86z"
+                ></path>
+                <path
+                  d="M212.1 0c-15.76.64-34.67 10.35-45.97 23.58-9.6 11.13-19 29.68-16.52 48.38a2.5 2.5 0 002.29 2.17c1.06.08 2.15.12 3.23.12 15.41 0 32.04-8.52 43.4-22.25 11.94-14.5 17.99-33.1 16.16-49.77A2.52 2.52 0 00212.1 0z"
+                ></path>
+              </svg>
+              <span class="ml-4 flex items-start flex-col leading-none">
+                <span class="text-xs text-gray-600 mb-1">Download on the</span>
+                <span class="title-font font-medium">App Store</span>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- RANKING WISE UNIVERSITIES -->
+    <section class="text-gray-600 body-font">
+      <h1 style="font-size: 30PX; text-align: center; font-weight: bold;">RANKING WISE UNIVERSITIES IN THE PUNJAB</h1>
+      <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-wrap -m-4">
+          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+            <a class="block relative h-48 rounded overflow-hidden">
+              <img
+                alt="ecommerce"
+                class="object-cover object-center w-full h-full block"
+                src="../LUMS.jpg"
+              />
+            </a>
+            <div class="mt-4">
+              RANKING WISE NUMBER ONE
+
+              <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
+              </h3>
+              <h2 class="text-gray-900 title-font text-lg font-medium">
+LUMS 
+              </h2>
+              <p style="text-decoration: underline;" class="mt-1">READ MORE</p>
+            </div>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+            <a class="block relative h-48 rounded overflow-hidden">
+              <img
+                alt="ecommerce"
+                class="object-cover object-center w-full h-full block"
+                src="../PUNJAB.jpg"
+              />
+            </a>
+            <div class="mt-4">
+              <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
+                RANKING WISE AT SECOND NUMBER 
+              </h3>
+              <h2 class="text-gray-900 title-font text-lg font-medium">
+                UNIVERSITY OF PUNJAB
+              </h2>
+              <p style="text-decoration: underline;" class="mt-1">READ MORE</p>
+            </div>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+            <a class="block relative h-48 rounded overflow-hidden">
+              <img
+                alt="ecommerce"
+                class="object-cover object-center w-full h-full block"
+                src="../NUST.jpg"
+              />
+            </a>
+            <div class="mt-4">
+              <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
+                RANKING WISE AT THIRD NUMBER 
+                
+              </h3>
+              <h2 class="text-gray-900 title-font text-lg font-medium">
+                NUST 
+              </h2>
+              <p style="text-decoration: underline;" class="mt-1">READ MORE</p>
+            </div>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+            <a class="block relative h-48 rounded overflow-hidden">
+              <img
+                alt="ecommerce"
+                class="object-cover object-center w-full h-full block"
+                src="/UETL.jpg"
+              />
+            </a>
+            <div class="mt-4">
+              <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
+                RANKING WISE AT 4TH NUMBER 
+                
+              </h3>
+              <h2 class="text-gray-900 title-font text-lg font-medium">
+                UET LAHORE
+              </h2>
+              <p style="text-decoration: underline;" class="mt-1">READ MORE</p>
+            </div>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+            <a class="block relative h-48 rounded overflow-hidden">
+              <img
+                alt="ecommerce"
+                class="object-cover object-center w-full h-full block"
+                src="/QUID.jpg"
+              />
+            </a>
+            <div class="mt-4">
+              <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
+                RANKING WISE AT 5TH PLACE 
+                
+              </h3>
+              <h2 class="text-gray-900 title-font text-lg font-medium">
+                QUID E AZAM UNIVERSITY
+              </h2>
+              <p style="text-decoration: underline;" class="mt-1">READ MORE </p>
+            </div>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+            <a class="block relative h-48 rounded overflow-hidden">
+              <img
+                alt="ecommerce"
+                class="object-cover object-center w-full h-full block"
+                src="/UETT.jpg"
+              />
+            </a>
+            <div class="mt-4">
+              <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
+                RANKING WISE AT 6TH PLACE  
+                
+              </h3>
+              <h2 class="text-gray-900 title-font text-lg font-medium">
+                UET TAXILA 
+              </h2>
+              <p style="text-decoration: underline;" class="mt-1">READ MORE </p>
+            </div>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+            <a class="block relative h-48 rounded overflow-hidden">
+              <img
+                alt="ecommerce"
+                class="object-cover object-center w-full h-full block"
+                src="/PIEAS.jpg"
+              />
+            </a>
+            <div class="mt-4">
+              <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
+                RANKING WISE AT 7TH PLACE  
+                
+              </h3>
+              <h2 class="text-gray-900 title-font text-lg font-medium">
+                PIEAS 
+              </h2>
+              <p style="text-decoration: underline;" class="mt-1">READ MORE </p>
+            </div>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+            <a class="block relative h-48 rounded overflow-hidden">
+              <img
+                alt="ecommerce"
+                class="object-cover object-center w-full h-full block"
+                src="/ULAHORE.png"
+              />
+            </a>
+            <div class="mt-4">
+              <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
+                RANKING WISE AT 8TH PLACE  
+                
+              </h3>
+              <h2 class="text-gray-900 title-font text-lg font-medium">
+                UNIVERSITY OF LAHORE 
+              </h2>
+              <p style="text-decoration: underline;" class="mt-1">READ MORE</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ADMISSION INFO -->
+    <section class="text-gray-600 body-font">
+      <h1 style="font-size: 30PX; text-align: center; font-weight: bold;">ADMISSION INFO AND PROCEDURE </h1>
+
+      <div class="container px-5 py-24 mx-auto flex flex-wrap">
+        <div class="flex flex-wrap w-full">
+          <div class="lg:w-2/5 md:w-1/2 md:pr-10 md:py-6">
+            <div class="flex relative pb-12">
+              <div
+                class="h-full w-10 absolute inset-0 flex items-center justify-center"
+              >
+                <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+              </div>
+              <div
+                class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10"
+              >
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z" />
+              </svg>
+              
+              </div>
+              <div class="flex-grow pl-4">
+                <h2
+                  class="font-medium title-font font-bold text-sm text-gray-900 mb-1 tracking-wider"
+                >
+                  SUBMITTING THE APPLICATION
+                </h2>
+                <p class="leading-relaxed">
+                  PLEASE SUBMIT YOUR APPLICATION HERE.TO FIND MORE DETAILE CLICK BELOW THE LINK 
+                </p>
+                <p style="text-decoration-line: underline; color: blue;">READ MORE</p>
+              </div>
+            </div>
+            <div class="flex relative pb-12">
+              <div
+                class="h-full w-10 absolute inset-0 flex items-center justify-center"
+              >
+                <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+              </div>
+              <div
+                class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10"
+              >
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m-3-2.818l.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              
+                  <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                </svg>
+              </div>
+              <div class="flex-grow pl-4">
+                <h2
+                  class="font-medium title-font font-bold text-sm text-gray-900 mb-1 tracking-wider"
+                >
+                  PAYING THE FEE
+                </h2>
+                <p class="leading-relaxed">
+                  ATTACH THE FEE CHALAN WITH APPLICATION. WE WILL INFORM YOU AFTER THE APPROVAL.
+                </p>
+                <p style="text-decoration-line: underline; color: blue;">READ MORE</p>
+
+              </div>
+            </div>
+            <div class="flex relative pb-12">
+              <div
+                class="h-full w-10 absolute inset-0 flex items-center justify-center"
+              >
+                <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+              </div>
+              <div
+                class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10"
+              >
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 7.5v3m0 0v3m0-3h3m-3 0h-3m-2.25-4.125a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zM4 19.235v-.11a6.375 6.375 0 0112.75 0v.109A12.318 12.318 0 0110.374 21c-2.331 0-4.512-.645-6.374-1.766z" />
+              </svg>
+              
+                  <circle cx="12" cy="5" r="3"></circle>
+                  <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
+                </svg>
+              </div>
+              <div class="flex-grow pl-4">
+                <h2
+                  class="font-medium title-font  font-bold text-gray-900 mb-1 tracking-wider"
+                >
+                  SCHEDULING THE INTERVIEW
+                </h2>
+                <p class="leading-relaxed">
+                  WE WILL TAKE THE INTERVIEW OF THE SELECTING CANDIDATES.FOR MORE INFORMATION CLICK BELOW THE LINK.
+                </p>
+                <p style="text-decoration-line: underline; color: blue;">READ MORE</p>
+
+              </div>
+            </div>
+            <div class="flex relative pb-12">
+              <div
+                class="h-full w-10 absolute inset-0 flex items-center justify-center"
+              >
+                <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+              </div>
+              <div
+                class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10"
+              >
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5" />
+              </svg>
+              
+                  <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                  <circle cx="12" cy="7" r="4"></circle>
+                </svg>
+              </div>
+              <div class="flex-grow pl-4">
+                <h2
+                  class="font-medium title-font font-bold text-sm text-gray-900 mb-1 tracking-wider"
+                >
+                  FINANCIAL AID 
+                </h2>
+                <p class="leading-relaxed">
+                  WE WILL OFFER FINANCIAL AID TO THE STUDENTS WHO ARE NOT ABLE TO PAY THEIR FEES.TO KNOW MORE ABOUT THE CRITIERA OF THE AID CLICK BELOW THE LINK .
+                </p>
+                <p style="text-decoration-line: underline; color: blue;">READ MORE</p>
+
+              </div>
+            </div>
+            <div class="flex relative">
+              <div
+                class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10"
+              >
+                <!-- <svg
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  class="w-5 h-5"
+                  viewBox="0 0 24 24"
+                > -->
+
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" />
+                </svg>
+                                
+
+                  <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                  <path d="M22 4L12 14.01l-3-3"></path>
+                </svg>
+              </div>
+              <div class="flex-grow pl-4">
+                <h2
+                  class="font-medium title-font font-bold text-gray-900 mb-1 tracking-wider"
+                >
+                  DEADLINE 
+                </h2>
+                <p class="leading-relaxed">
+                  TO CHECK THE THE DEADLINE OF THE DIFFERENT UNIVERSITIES CLICK BELOW THE LINK .
+                </p>
+                <p style="text-decoration-line: underline; color: blue;">READ MORE</p>
+                
+              </div>
+            </div>
+          </div>
+          <img  style=" width: 700px; height: 600px;"
+            class="lg:w-3/5 md:w-1/2 object-cover object-center rounded-lg md:mt-0 mt-12"
+            src="/admission4.png"
+            alt="step"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- FEE INFORMATION -->
+    <section class="text-gray-600 body-font">
+      <h1 style="font-size: 30PX; text-align: center;  font-weight: bold;">FEE STRUCTURE OF DIFFERENT UNIVERSITIES </h1>
+
+      <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-col text-center w-full mb-20">
+          <h1
+            class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900"
+          >
+            UET TAXILA 
+          </h1>
+          <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
+            Fee structure of different departments for UET TAXILA.
+          </p>
+        </div>
+        <div class="lg:w-2/3 w-full mx-auto overflow-auto">
+          <table class="table-auto w-full text-left whitespace-no-wrap">
+            <thead>
+              <tr>
+                <th
+                  class="px-4 py-3 title-font font-bold tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tl rounded-bl"
+                >
+                  Engineering Programs
+                </th>
+                <th
+                  class="px-4 py-3 title-font  font-bold font-medium text-gray-900 text-sm bg-gray-100"
+                >
+                  Non-Resident 
+                </th>
+                <th
+                  class="px-4 py-3 title-font  font-bold font-medium text-gray-900 text-sm bg-gray-100"
+                >
+                  Resident 
+                </th>
+                <th
+                  class="px-4 py-3 title-font font-bold tracking-wider font-medium text-gray-900 text-sm bg-gray-100"
+                >
+                 X & S Category
+                  
+                </th>
+                <th
+                  class="w-10 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 rounded-tr rounded-br"
+                ></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="px-4 py-3 font-bold">Civil Engineering </td>
+                <td class="px-4 py-3">65,000/Rs</td>
+                <td class="px-4 py-3">85,000</td>
+                <td class="px-4 py-3 text-lg text-gray-900">620,000</td>
+                <td class="w-10 text-center">
+                  <!-- <input name="plan" type="radio" /> -->
+                </td>
+              </tr>
+              <tr>
+                <td class="border-t-2 font-bold border-gray-200 px-4 py-3">Software Engineering</td>
+                <td class="border-t-2 border-gray-200 px-4 py-3">60,000</td>
+                <td class="border-t-2 border-gray-200 px-4 py-3">75,000</td>
+                <td
+                  class="border-t-2 border-gray-200 px-4 py-3 text-lg text-gray-900"
+                >
+                  611,000
+                </td>
+                <td class="border-t-2 border-gray-200 w-10 text-center">
+                  <!-- <input name="plan" type="radio" /> -->
+                </td>
+              </tr>
+              <tr>
+                <td class="border-t-2 font-bold border-gray-200 px-4 py-3">Electrical Engineering</td>
+                <td class="border-t-2 border-gray-200 px-4 py-3">60,000</td>
+                <td class="border-t-2 border-gray-200 px-4 py-3">75,000</td>
+                <td
+                  class="border-t-2 border-gray-200 px-4 py-3 text-lg text-gray-900"
+                >
+                  611,000
+                </td>
+                <td class="border-t-2 border-gray-200 w-10 text-center">
+                  <!-- <input name="plan" type="radio" /> -->
+                </td>
+              </tr>
+              <tr>
+                <td class="border-t-2 font-bold border-b-2 border-gray-200 px-4 py-3">
+                  Mechanical Engineering
+                </td>
+                <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">
+                  60,000
+                </td>
+                <td class="border-t-2 border-b-2 border-gray-200 px-4 py-3">
+                  75,000
+                </td>
+                <td
+                  class="border-t-2 border-b-2 border-gray-200 px-4 py-3 text-lg text-gray-900"
+                >
+                  611,000
+                </td>
+                <td
+                  class="border-t-2 border-b-2 border-gray-200 w-10 text-center"
+                >
+                  <!-- <input name="plan" type="radio" /> -->
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="flex pl-4 mt-4 lg:w-2/3 w-full mx-auto">
+          <!-- <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
+            >More Detaile  -->
+            <!-- <svg
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              class="w-4 h-4 ml-2"
+              viewBox="0 0 24 24"
+            > -->
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </a>
+          
+              <input
+              placeholder="Name of the University"
+                type="text"
+                id="hero-field"
+                name="hero-field"
+                class="w-full m-1 bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:ring-2 focus:ring-indigo-200 focus:bg-transparent focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              />
+          <button
+            class="flex  pl-3 text-white bg-indigo-500 border-0 py-4 px-4 focus:outline-none hover:bg-indigo-600 rounded"
+          >
+            SEARCH
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- SCHOLORSHIP INFO  -->
+
+    <section class="text-gray-600 body-font">
+      <h1 style="font-size: 30PX; text-align: center;  font-weight: bold;">SCHOLERSHIP INFORMATION IN THE PUNJAB UNIVERSITIES </h1>
+      
+      <div class="container px-5 py-24 mx-auto flex flex-wrap">
+        <div
+          class="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10"
+        >
+          <div class="w-full sm:p-4 px-4 mb-6">
+            <h1 class="title-font font-medium text-xl mb-2 text-gray-900">
+              HEC SCHOLERSHIP FOR PUNJAB UNIVERSITIES
+            </h1>
+            <div class="leading-relaxed">
+              Last year the Prime Minister of Pakistan announces scholerships to the students in punjab, detaile given below. 
+            </div>
+          </div>
+          <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+            <h2 class="title-font font-medium text-3xl text-gray-900">207K</h2>
+            <p class="leading-relaxed">TOTAL </p>
+          </div>
+          <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+            <h2 class="title-font font-medium text-3xl text-gray-900">200K</h2>
+            <p class="leading-relaxed">STUDENTS 
+
+            </p>
+            
+          </div>
+          
+          <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+            <h2 class="title-font font-medium text-3xl text-gray-900">7K</h2>
+            <p class="leading-relaxed">AVAILABLE</p>
+          </div>
+          <div class="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
+            <h2 class="title-font font-medium text-3xl text-gray-900">20</h2>
+            <p class="leading-relaxed">PROGRAMS</p>
+          </div>
+        </div>
+        <div
+          class="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0"
+        >
+          <img style="width:500px; height: 400px;"
+            class="object-cover object-center w-full h-full"
+            src="/scholorship.png"
+            alt="stats"
+          />
+        <p style="text-decoration: underline; color: blue;" class="mt-1">READ MORE</p>
+
+        </div>
+        
+
+      </div>
+    </section>
+
+    <!-- LOCATION OF UNIVERSITIES  -->
+    <section class="text-gray-600 body-font relative">
+      <h1 style="font-size: 30PX; text-align: center;  font-weight: bold;">FIND LOCATION OF THE UNIVERSITIES IN THE PUNJAB</h1>
+
+      <div class="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
+        <div
+          class="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative"
+        >
+        <iframe width="100%"
+        height="100%"
+        class="absolute inset-0"
+        frameborder="0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13267.094713338049!2d72.8232329!3d33.7665138!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfa436e082015d%3A0xf729c78e5ac28d57!2sUniversity%20of%20Engineering%20and%20Technology%20(UET)%2C%20Taxila!5e0!3m2!1sen!2s!4v1676887353884!5m2!1sen!2s" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          
+        
+        <!-- <iframe
+            width="100%"
+            height="100%"
+            class="absolute inset-0"
+            frameborder="0"
+            title="map"
+            marginheight="0"
+            marginwidth="0"
+            scrolling="no"
+            src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed"
+            style="filter: grayscale(1) contrast(1.2) opacity(0.4)"
+          ></iframe> -->
+          <div class="bg-white relative flex flex-wrap py-1 rounded shadow-md">
+            <div class="lg:w-1/2 px-6">
+              <h2
+                class="title-font font-semibold text-gray-900 tracking-widest text-xs"
+              >
+                ADDRESS
+              </h2>
+              <p class="mt-1">
+                UNIVERSITY OF ENGINEERING AND TECHNOLOGY, TAXILA 
+              </p>
+            </div>
+            <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
+              <h2
+                class="title-font font-semibold text-gray-900 tracking-widest text-xs"
+              >
+                EMAIL
+              </h2>
+              <a class="text-indigo-500 leading-relaxed">info@uettaxila.edu.pk</a>
+              <h2
+                class="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4"
+              >
+                PHONE
+              </h2>
+              <p class="leading-relaxed">+92-456-7890</p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
+        >
+          <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">
+            FIND UNIVERSITIES LOCATION
+          </h2>
+          <p class="leading-relaxed mb-5 text-gray-600">
+            Write the name of the universities you want to find 
+          </p>
+          <div class="relative mb-4">
+            <label for="name" class="leading-7 text-sm text-gray-600"
+              >Name </label
+            >
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Name of the University"
+              class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+            />
+          </div>
+           <div class="relative mb-4">
+            <!-- <label for="email" class="leading-7 text-sm text-gray-600"
+              >Email</label
+            >
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+            /> -->
+          </div>
+          <!-- <div class="relative mb-4">
+            <label for="message" class="leading-7 text-sm text-gray-600"
+              >Message</label
+            >
+            <textarea
+              id="message"
+              name="message"
+              class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+            ></textarea> -->
+          <!-- </div> --> 
+          <button
+            class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+          >
+            Search Now
+          </button>
+          <p class="text-xs text-gray-500 mt-3">
+To find more detail visit the official website of the university
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- STUDENTS LOGIN  -->
+
+    <section class="text-gray-600 body-font">
+      <!-- component -->
+<div class="bg-grey-lighter min-h-screen flex flex-col">
+  <div class="container max-w-sm mx-auto flex-1 flex flex-col items-center justify-center px-2">
+      <div class="bg-white px-6 py-8 rounded shadow-md text-black w-full">
+          <h1 class="mb-8 text-3xl text-center">Sign up</h1>
+          <input 
+              type="text"
+              class="block border border-grey-light w-full p-3 rounded mb-4"
+              name="fullname"
+              placeholder="Full Name" />
+
+          <input 
+              type="text"
+              class="block border border-grey-light w-full p-3 rounded mb-4"
+              name="email"
+              placeholder="Email" />
+
+          <input 
+              type="password"
+              class="block border border-grey-light w-full p-3 rounded mb-4"
+              name="password"
+              placeholder="Password" />
+          <input 
+              type="password"
+              class="block border border-grey-light w-full p-3 rounded mb-4"
+              name="confirm_password"
+              placeholder="Confirm Password" />
+
+          <button
+              type="submit"
+              class="w-full text-center py-3 rounded bg-green bg-blue-700 text-white hover:bg-green-dark focus:outline-none my-1"
+          >Create Account</button>
+
+          <div class="text-center text-sm text-grey-dark mt-4">
+              By signing up, you agree to the 
+              <a class="no-underline border-b border-grey-dark text-grey-dark" href="#">
+                  Terms of Service
+              </a> and 
+              <a class="no-underline border-b border-grey-dark text-grey-dark" href="#">
+                  Privacy Policy
+              </a>
+          </div>
+      </div>
+
+      <div class="text-grey-dark mt-6">
+          Already have an account? 
+          <a class="no-underline border-b border-blue text-blue" href="../login/">
+              Log in
+          </a>.
+      </div>
+  </div>
+</div>
+    </section>
+
+    <!-- FOOTER  -->
+    
+    <footer class="text-gray-600 body-font">
+      <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+        <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+          <path
+          d=""
+        > <img src="../logo.png " style="width: 40px;" alt="loading images  "></path>
+          <span class="ml-3 text-xl">UNIVERSITIES OF PUNJAB </span>
+        </a>
+        <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2023 ahmadraza
+          <a href="https://twitter.com/knyttneve" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank"></a>
+        </p>
+        <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+          <a class="text-gray-500">
+            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+              <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-500">
+            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+              <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-500">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-gray-500">
+            <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+              <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+              <circle cx="4" cy="4" r="2" stroke="none"></circle>
+            </svg>
+          </a>
+        </span>
+      </div>
+    </footer>
+  </body>
+</html>
